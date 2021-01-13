@@ -5,8 +5,13 @@
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/adeyahya/@warmbyte/with-apollo",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/warmbyte/with-apollo.git"
+  },
+  "author": "Ade Yahya Prasetyo <adeyahyaprasetyo@gmail.com>",
   "license": "MIT",
+  "private": false,
   "keywords": [],
   "scripts": {
     "build": "run-p build:*",
@@ -45,10 +50,12 @@
     "@apollo/client": "^3.3.6",
     "@apollo/react-ssr": "^4.0.0",
     "@bitauth/libauth": "^1.17.1",
+    "graphql": "^15.4.0",
     "isomorphic-unfetch": "^3.1.0",
     "js-cookie": "^2.2.1",
     "next": "^10.0.5",
-    "react": "^17.0.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
@@ -56,6 +63,7 @@
     "@types/js-cookie": "^2.2.6",
     "@types/node": "^14.14.20",
     "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "ava": "^3.12.1",
@@ -116,5 +124,9 @@
     "@apollo/react-ssr": "^4.0.0",
     "next": "^10.0.5",
     "react": "^17.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/warmbyte/with-apollo/issues"
+  },
+  "homepage": "https://github.com/warmbyte/with-apollo#readme"
 }
